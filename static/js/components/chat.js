@@ -15,7 +15,7 @@ function scrollToBottomOfResults() {
  * @param {String} message user message
  */
 function setUserResponse(message) {
-    const user_response = `<img class="userAvatar" src=IP+"static/img/userAvatar.jpg"><p class="userMsg">${message} </p><div class="clearfix"></div>`;
+    const user_response = `<img class="userAvatar" src="http://209.94.59.153:81/files/cdn-pruebas/static/img/userAvatar.jpg"><p class="userMsg">${message} </p><div class="clearfix"></div>`;
     $(user_response).appendTo(".chats").show("slow");
 
     $(".usrInput").val("");
