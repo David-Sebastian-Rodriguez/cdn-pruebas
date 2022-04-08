@@ -47,7 +47,7 @@ function setBotResponse(response) {
             // if there is no response from Rasa, send  fallback message to the user
             const fallbackMsg = "I am facing some issues, please try again later!!!";
 
-            const BotResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/img/sara_avatar.png"/><p class="botMsg">${fallbackMsg}</p><div class="clearfix"></div>`;
+            const BotResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/sara_avatar.png"/><p class="botMsg">${fallbackMsg}</p><div class="clearfix"></div>`;
 
             $(BotResponse).appendTo(".chats").hide().fadeIn(1000);
             scrollToBottomOfResults();
@@ -81,13 +81,13 @@ function setBotResponse(response) {
                         // check for list text
                         if (html.includes("<ul") || html.includes("<ol") || html.includes("<li") || html.includes('<h3')) {
                             html = html.replaceAll("<br>", "");
-                            // botResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/img/sara_avatar.png"/><span class="botMsg">${html}</span><div class="clearfix"></div>`;
+                            // botResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/sara_avatar.png"/><span class="botMsg">${html}</span><div class="clearfix"></div>`;
                             botResponse = getBotResponse(html);
                         }
                         else {
                             // if no markdown formatting found, render the text as it is.
                             if (!botResponse) {
-                                botResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/img/sara_avatar.png"/><p class="botMsg">${response[i].text}</p><div class="clearfix"></div>`;
+                                botResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/sara_avatar.png"/><p class="botMsg">${response[i].text}</p><div class="clearfix"></div>`;
                             }
                         }
                         // append the bot response on to the chat screen
