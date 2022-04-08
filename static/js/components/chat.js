@@ -13,7 +13,7 @@ function scrollToBottomOfResults() {
  * @param {String} message user message
  */
 function setUserResponse(message) {
-    const user_response = `<img class="userAvatar" src='https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/img/userAvatar.jpg'><p class="userMsg">${message} </p><div class="clearfix"></div>`;
+    const user_response = `<img class="userAvatar" src='https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/userAvatar.jpg'><p class="userMsg">${message} </p><div class="clearfix"></div>`;
     $(user_response).appendTo(".chats").show("slow");
 
     $(".usrInput").val("");
@@ -29,7 +29,7 @@ function setUserResponse(message) {
  *
  */
 function getBotResponse(text) {
-    botResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/img/sara_avatar.png"/><span class="botMsg">${text}</span><div class="clearfix"></div>`;
+    botResponse = `<img class="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/sara_avatar.png"/><span class="botMsg">${text}</span><div class="clearfix"></div>`;
     return botResponse;
 }
 
