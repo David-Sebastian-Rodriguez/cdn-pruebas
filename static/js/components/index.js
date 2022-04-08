@@ -1,4 +1,4 @@
-let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
+//let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
 function include(file) {
     const script = document.createElement('script');
     script.src = file;

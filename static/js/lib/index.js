@@ -1,4 +1,4 @@
-let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
+//let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
 
 /* module for importing other js files */
 function include(file) {
