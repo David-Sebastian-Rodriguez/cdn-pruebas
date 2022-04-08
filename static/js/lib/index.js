@@ -1,3 +1,4 @@
+let IP = "http://209.94.59.153:81/files/"
 
 /* module for importing other js files */
 function include(file) {
@@ -9,7 +10,7 @@ function include(file) {
     document.getElementsByTagName('head').item(0).appendChild(script);
 }
 
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/jquery.min.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/materialize.min.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/chart.min.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/uuid.min.js');
+include(IP+'static/js/lib/jquery.min.js');
+include(IP+'static/js/lib/materialize.min.js');
+include(IP+'static/js/lib/chart.min.js');
+include(IP+'static/js/lib/uuid.min.js');

@@ -1,4 +1,6 @@
 
+let IP = "http://209.94.59.153:81/files/"
+
 /**
  * removes the bot typing indicator from the chat screen
  */
@@ -11,7 +13,7 @@ function hideBotTyping() {
  * adds the bot typing indicator from the chat screen
  */
 function showBotTyping() {
-    const botTyping = '<img class="botAvatar" id="botAvatar" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/sara_avatar.png"/><div class="botTyping"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>';
+    const botTyping = '<img class="botAvatar" id="botAvatar" src=IP+"static/img/sara_avatar.png"/><div class="botTyping"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>';
     $(botTyping).appendTo(".chats");
     $(".botTyping").show();
     scrollToBottomOfResults();

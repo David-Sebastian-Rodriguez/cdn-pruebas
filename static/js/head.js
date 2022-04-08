@@ -44,13 +44,13 @@ document.write(`
     <link
         rel="stylesheet"
         type="text/css"
-        href="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/css/materialize.min.css"
+        href="http://209.94.59.153:81/files/static/css/materialize.min.css"
     />
 
 
 
     <!--Main css-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://209.94.59.153:81/files/static/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 `);

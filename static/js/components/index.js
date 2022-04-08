@@ -1,3 +1,4 @@
+let IP = "http://209.94.59.153:81/files/"
 function include(file) {
     const script = document.createElement('script');
     script.src = file;
@@ -9,14 +10,14 @@ function include(file) {
 
 /* include all the components js file */
 
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/chat.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/constants.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/cardsCarousel.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/botTyping.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/charts.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/collapsible.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/dropDown.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/location.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/pdfAttachment.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/quickReplies.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/suggestionButtons.js');
+include(IP+'static/js/components/chat.js');
+include(IP+'static/js/constants.js');
+include(IP+'static/js/components/cardsCarousel.js');
+include(IP+'static/js/components/botTyping.js');
+include(IP+'static/js/components/charts.js');
+include(IP+'static/js/components/collapsible.js');
+include(IP+'static/js/components/dropDown.js');
+include(IP+'static/js/components/location.js');
+include(IP+'static/js/components/pdfAttachment.js');
+include(IP+'static/js/components/quickReplies.js');
+include(IP+'static/js/components/suggestionButtons.js');

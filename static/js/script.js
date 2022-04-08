@@ -1,4 +1,6 @@
 
+let IP = "http://209.94.59.153:81/files/"
+
 /* module for importing other js files */
 function include(file) {
   const script = document.createElement('script');
@@ -22,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* import components */
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/index.js');
+include(IP+'static/js/components/index.js');
 
 window.addEventListener('load', () => {
   // initialization

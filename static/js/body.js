@@ -44,7 +44,7 @@ document.write(`
 
     <!--bot profile-->
     <div class="profile_div" id="profile_div">
-    <img class="imgProfile" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/botAvatar.png" />
+    <img class="imgProfile" src="http://209.94.59.153:81/files/static/img/botAvatar.png" />
     </div>
 
     <!-- Bot pop-up intro -->
@@ -60,18 +60,18 @@ document.write(`
     </div>
 
 
-    <!--JavaScript at end of body for optimized loading -->
+    <!--JavaScript at end of body for optimized loading-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
     type="text/javascript"
-    src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/materialize.min.js"
+    src="http://209.94.59.153:81/files/static/js/lib/materialize.min.js"
     ></script>
-    <script src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/uuid.min.js"></script>
+    <script src="http://209.94.59.153:81/files/static/js/lib/uuid.min.js"></script>
     <!--Main Script -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/script.js"></script>
+    <script type="text/javascript" src="http://209.94.59.153:81/files/static/js/script.js"></script>
 
     <!--Chart.js Script -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/chart.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/showdown.min.js"></script>
+    <script type="text/javascript" src="http://209.94.59.153:81/files/static/js/lib/chart.min.js"></script>
+    <script type="text/javascript" src="http://209.94.59.153:81/files/static/js/lib/showdown.min.js"></script>
 
 `);
