@@ -44,7 +44,7 @@ document.write(`
 
     <!--bot profile-->
     <div class="profile_div" id="profile_div">
-    <img class="imgProfile" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/img/botAvatar.png" />
+    <img class="imgProfile" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/img/botAvatar.png" />
     </div>
 
     <!-- Bot pop-up intro -->
@@ -64,14 +64,14 @@ document.write(`
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
     type="text/javascript"
-    src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/materialize.min.js"
+    src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/materialize.min.js"
     ></script>
-    <script src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/uuid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/uuid.min.js"></script>
     <!--Main Script -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/script.js"></script>
 
     <!--Chart.js Script -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/chart.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/showdown.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/chart.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/lib/showdown.min.js"></script>
 
 `);
