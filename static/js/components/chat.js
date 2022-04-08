@@ -1,4 +1,4 @@
-//let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
+let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
 
 /**
  * scroll to the bottom of the chats after new message has been added to chat
