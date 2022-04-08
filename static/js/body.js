@@ -68,7 +68,7 @@ document.write(`
     type="text/javascript"
     src="http://209.94.59.153:81/files/cdn-pruebas/static/js/lib/materialize.min.js"
     ></script>
-    <script src="http://209.94.59.153:81/files/static/js/lib/uuid.min.js"></script>
+    <script src="http://209.94.59.153:81/files/cdn-pruebas/static/js/lib/uuid.min.js"></script>
     <!--Main Script -->
     <script type="text/javascript" src="http://209.94.59.153:81/files/cdn-pruebas/static/js/script.js"></script>
 
