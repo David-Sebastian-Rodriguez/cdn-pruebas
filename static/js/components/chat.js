@@ -1,4 +1,4 @@
-let IP2 = "http://209.94.59.153:81/files/cdn-pruebas/"
+//let ${IP} = "http://209.94.59.153:81/files/cdn-pruebas/"
 
 /**
  * scroll to the bottom of the chats after new message has been added to chat
@@ -15,7 +15,7 @@ function scrollToBottomOfResults() {
  * @param {String} message user message
  */
 function setUserResponse(message) {
-    const user_response = `<img class="userAvatar" src="http://209.94.59.153:81/files/cdn-pruebas/static/img/userAvatar.jpg"><p class="userMsg">${message} </p><div class="clearfix"></div>`;
+    const user_response = `<img class="userAvatar" src=${IP}+"static/img/userAvatar.jpg"><p class="userMsg">${message} </p><div class="clearfix"></div>`;
     $(user_response).appendTo(".chats").show("slow");
 
     $(".usrInput").val("");
@@ -31,7 +31,7 @@ function setUserResponse(message) {
  *
  */
 function getBotResponse(text) {
-    botResponse = `<img class="botAvatar" src=IP2+"static/img/sara_avatar.png"/><span class="botMsg">${text}</span><div class="clearfix"></div>`;
+    botResponse = `<img class="botAvatar" src=${IP}+"static/img/sara_avatar.png"/><span class="botMsg">${text}</span><div class="clearfix"></div>`;
     return botResponse;
 }
 
@@ -49,7 +49,7 @@ function setBotResponse(response) {
             // if there is no response from Rasa, send  fallback message to the user
             const fallbackMsg = "I am facing some issues, please try again later!!!";
 
-            const BotResponse = `<img class="botAvatar" src=IP2+"static/img/sara_avatar.png"/><p class="botMsg">${fallbackMsg}</p><div class="clearfix"></div>`;
+            const BotResponse = `<img class="botAvatar" src=${IP}+"static/img/sara_avatar.png"/><p class="botMsg">${fallbackMsg}</p><div class="clearfix"></div>`;
 
             $(BotResponse).appendTo(".chats").hide().fadeIn(1000);
             scrollToBottomOfResults();
@@ -83,13 +83,13 @@ function setBotResponse(response) {
                         // check for list text
                         if (html.includes("<ul") || html.includes("<ol") || html.includes("<li") || html.includes('<h3')) {
                             html = html.replaceAll("<br>", "");
-                            // botResponse = `<img class="botAvatar" src=IP2+"static/img/sara_avatar.png"/><span class="botMsg">${html}</span><div class="clearfix"></div>`;
+                            // botResponse = `<img class="botAvatar" src=${IP}+"static/img/sara_avatar.png"/><span class="botMsg">${html}</span><div class="clearfix"></div>`;
                             botResponse = getBotResponse(html);
                         }
                         else {
                             // if no markdown formatting found, render the text as it is.
                             if (!botResponse) {
-                                botResponse = `<img class="botAvatar" src=IP2+"static/img/sara_avatar.png"/><p class="botMsg">${response[i].text}</p><div class="clearfix"></div>`;
+                                botResponse = `<img class="botAvatar" src=${IP}+"static/img/sara_avatar.png"/><p class="botMsg">${response[i].text}</p><div class="clearfix"></div>`;
                             }
                         }
                         // append the bot response on to the chat screen
