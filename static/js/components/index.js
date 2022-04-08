@@ -9,14 +9,14 @@ function include(file) {
 
 /* include all the components js file */
 
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/chat.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/constants.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/cardsCarousel.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/botTyping.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/charts.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/collapsible.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/dropDown.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/location.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/pdfAttachment.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/quickReplies.js');
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/suggestionButtons.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/chat.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/constants.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/cardsCarousel.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/botTyping.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/charts.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/collapsible.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/dropDown.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/location.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/pdfAttachment.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/quickReplies.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@latest/static/js/components/suggestionButtons.js');
