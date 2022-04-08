@@ -1,5 +1,7 @@
 document.write(`
         
+    <!-- Requiere IP -->
+
     <div class="container">
     <!-- Modal for rendering the charts, declare this if you want to render charts, 
     else you remove the modal -->
@@ -44,7 +46,7 @@ document.write(`
 
     <!--bot profile-->
     <div class="profile_div" id="profile_div">
-    <img class="imgProfile" src="http://209.94.59.153:81/files/static/img/botAvatar.png" />
+    <img class="imgProfile" src="http://209.94.59.153:81/files/cdn-pruebas/static/img/botAvatar.png" />
     </div>
 
     <!-- Bot pop-up intro -->
@@ -64,14 +66,14 @@ document.write(`
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
     type="text/javascript"
-    src="http://209.94.59.153:81/files/static/js/lib/materialize.min.js"
+    src="http://209.94.59.153:81/files/cdn-pruebas/static/js/lib/materialize.min.js"
     ></script>
     <script src="http://209.94.59.153:81/files/static/js/lib/uuid.min.js"></script>
     <!--Main Script -->
-    <script type="text/javascript" src="http://209.94.59.153:81/files/static/js/script.js"></script>
+    <script type="text/javascript" src="http://209.94.59.153:81/files/cdn-pruebas/static/js/script.js"></script>
 
     <!--Chart.js Script -->
-    <script type="text/javascript" src="http://209.94.59.153:81/files/static/js/lib/chart.min.js"></script>
-    <script type="text/javascript" src="http://209.94.59.153:81/files/static/js/lib/showdown.min.js"></script>
+    <script type="text/javascript" src="http://209.94.59.153:81/files/cdn-pruebas/static/js/lib/chart.min.js"></script>
+    <script type="text/javascript" src="http://209.94.59.153:81/files/cdn-pruebas/static/js/lib/showdown.min.js"></script>
 
 `);

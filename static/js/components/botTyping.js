@@ -1,5 +1,5 @@
 
-let IP = "http://209.94.59.153:81/files/"
+let IP = "http://209.94.59.153:81/files/cdn-pruebas/"
 
 /**
  * removes the bot typing indicator from the chat screen

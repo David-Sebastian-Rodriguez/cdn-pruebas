@@ -1,6 +1,8 @@
 document.write(`
 
 
+    <!-- Reiquiere IP -->
+
     <!--Import Google Icon Font-->
     <link
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -44,13 +46,13 @@ document.write(`
     <link
         rel="stylesheet"
         type="text/css"
-        href="http://209.94.59.153:81/files/static/css/materialize.min.css"
+        href="http://209.94.59.153:81/files/cdn-pruebas/static/css/materialize.min.css"
     />
 
 
 
     <!--Main css-->
-    <link rel="stylesheet" type="text/css" href="http://209.94.59.153:81/files/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://209.94.59.153:81/files/cdn-pruebas/static/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 `);
