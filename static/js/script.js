@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* import components */
-include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas/static/js/components/index.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/components/index.js');
 
 window.addEventListener('load', () => {
   // initialization
