@@ -9,7 +9,7 @@ function include(file) {
     document.getElementsByTagName('head').item(0).appendChild(script);
 }
 
-include('./static/js/lib/jquery.min.js');
-include('./static/js/lib/materialize.min.js');
-include('./static/js/lib/chart.min.js');
-include('./static/js/lib/uuid.min.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/jquery.min.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/materialize.min.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/chart.min.js');
+include('https://cdn.jsdelivr.net/gh/David-Sebastian-Rodriguez/cdn-pruebas@main/static/js/lib/uuid.min.js');
